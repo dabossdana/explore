@@ -6,7 +6,7 @@ gem "faraday-retry", "~> 2.2.1"
 
 group :test do
   gem "fastimage"
-  gem "httparty"
+  gem "httparty", ">= 0.24.0"
   gem "minitest"
   gem "octokit"
   gem "pry", require: false
